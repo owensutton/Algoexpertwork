@@ -1,7 +1,11 @@
 def twoNumberSum(array, targetSum):
-
+    out = []
     for x in array:
-
+        for y in array:
+            if x + y == targetSum:
+                out.append(x)
+                out.append(y)
+    print out
 
 
 
